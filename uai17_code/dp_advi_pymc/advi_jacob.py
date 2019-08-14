@@ -364,4 +364,4 @@ def sample_vp(
         point = {varname: value for varname, value in zip(varnames, f())}
         trace.record(point)
 
-	return MultiTrace([trace])
+    return MultiTrace([trace])

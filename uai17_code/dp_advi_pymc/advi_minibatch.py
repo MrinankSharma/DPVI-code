@@ -7,7 +7,8 @@ from theano.sandbox.rng_mrg import MRG_RandomStreams
 
 from pymc3 import modelcontext, ArrayOrdering, DictToArrayBijection
 from pymc3.theanof import reshape_t, inputvars
-from advi_jacob import check_discrete_rvs, ADVIFit, adagrad_optimizer, gen_random_state
+from uai17_code.dp_advi_pymc.advi_jacob import check_discrete_rvs, ADVIFit, adagrad_optimizer, gen_random_state
+
 import sys
 
 theano.config.openmp = True
